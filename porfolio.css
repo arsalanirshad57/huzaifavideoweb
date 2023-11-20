@@ -55,43 +55,43 @@
 }
 
 #Long-videos-card-1 {
-    background-image: url(../imgaes/vlog.webp);
+    background-image: url(/vlog.webp);
     background-position: center;
     background-size: cover;
 }
 
 #Long-videos-card-2 {
-    background-image: url(../imgaes/gaming.webp);
+    background-image: url(/gaming.webp);
     background-position: center;
     background-size: cover;
 }
 
 #Long-videos-card-3 {
-    background-image: url(../imgaes/foodandcooking.webp);
+    background-image: url(/foodandcooking.webp);
     background-position: center;
     background-size: cover;
 }
 
 #Long-videos-card-4 {
-    background-image: url(../imgaes/tech.webp);
+    background-image: url(/tech.webp);
     background-position: center;
     background-size: cover;
 }
 
 #Long-videos-card-5 {
-    background-image: url(../imgaes/Educational.webp);
+    background-image: url(/Educational.webp);
     background-position: center;
     background-size: cover;
 }
 
 #Long-videos-card-6 {
-    background-image: url(../imgaes/travel.webp);
+    background-image: url(/travel.webp);
     background-position: center;
     background-size: cover;
 }
 
 #Long-videos-card-7 {
-    background-image: url(../imgaes/challenge.webp);
+    background-image: url(/challenge.webp);
     background-position: center;
     background-size: cover;
     
