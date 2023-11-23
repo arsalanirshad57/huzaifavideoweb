@@ -98,6 +98,7 @@ const swiperfunc = (widthSize) => {
 const widthSize = window.matchMedia("(width < 1150px)")
 swiperfunc(widthSize)
 widthSize.addEventListener("change", swiperfunc)
+
 const swiperfun2 = (widthSize2) => {
     if (widthSize2.matches) {
         var swiper = new Swiper(".mySwiper", {
@@ -130,6 +131,18 @@ main.addEventListener("mousemove", function (dets) {
     cursur.style.left = dets.x + "px"
     cursur.style.top = dets.y + "px"
 })
+
+const cursurZero = (cursurWidth) => {
+    if (cursurWidth.matches) {
+        cursur.style.display = "none"
+ 
+    } else {
+        cursur.style.display = "block"
+    }
+}
+const cursurWidth = window.matchMedia("(max-width : 850px)")
+cursurZero(cursurWidth)
+cursurWidth.addEventListener("change", cursurZero)
 function aboutainmation() {
     var about_left = document.querySelector(".about-left")
     about_left.addEventListener("mouseenter", function () {
@@ -294,32 +307,32 @@ function contact_animation() {
     }, "contact")
 }
 contact_animation()
-function nav_animation(){
-const nav_tl = gsap.timeline()
-nav_tl.from("#right", {
-    y: -200,
-    duration: 0.5,
-    delay: 0.3,
-}, "nav")
-nav_tl.from("#left ul li ", {
-    y: -200,
-    duration: 1,
-    // delay: 0.1,
-    stagger: 0.2,
-})
-nav_tl.from("#working-left", {
-    y: 200,
-//    delay: -1,
-    opacity: 0
-})
+function nav_animation() {
+    const nav_tl = gsap.timeline()
+    nav_tl.from("#right", {
+        y: -200,
+        duration: 0.5,
+        delay: 0.3,
+    }, "nav")
+    nav_tl.from("#left ul li ", {
+        y: -200,
+        duration: 1,
+        // delay: 0.1,
+        stagger: 0.2,
+    })
+    nav_tl.from("#working-left", {
+        y: 200,
+        //    delay: -1,
+        opacity: 0
+    })
 }
 nav_animation()
-var footer_inner= document.querySelector("#footer-subs-inner-1")
-footer_inner.addEventListener("mouseenter" , function(){
-  cursur.style.display = "none"
+var footer_inner = document.querySelector("#footer-subs-inner-1")
+footer_inner.addEventListener("mouseenter", function () {
+    cursur.style.display = "none"
 })
-footer_inner.addEventListener("mouseleave" , function(){
-  cursur.style.display = "block"
+footer_inner.addEventListener("mouseleave", function () {
+    cursur.style.display = "block"
 })
 // Animation section end
 
