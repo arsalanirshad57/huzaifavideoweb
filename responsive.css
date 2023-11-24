@@ -1052,14 +1052,14 @@
     }
 
     #elem-2 {
-        width: 95vw;
+        width: 90vw;
         height: 22rem;
         overflow: visible;
 
     }
 
     #elem-3 {
-        width: 95vw;
+        width: 90vw;
         height: 12rem;
     }
 
@@ -1278,16 +1278,15 @@
    
 }
 @media screen and (width < 300px) {
-  
     #elem-2 {
-        width: 95vw;
+        width: 90vw;
         height: 33rem;
         overflow: visible;
 
     }
 
     #elem-3 {
-        width: 95vw;
+        width: 90vw;
         height: 12rem;
     }
     .hero-section {
@@ -1547,14 +1546,14 @@
 @media screen and (width < 250px) {
  
     #elem-2 {
-        width: 95vw;
+        width: 90vw;
         height: 40rem;
         overflow: visible;
 
     }
 
     #elem-3 {
-        width: 95vw;
+        width: 90vw;
         height: 12rem;
     }
 
