@@ -33,6 +33,7 @@
         height: 70rem;
         background-color: var(--bodyBack-one);
     }
+
     #working-left {
         width: 100%;
         height: 60%;
@@ -198,6 +199,7 @@
         display: none;
         visibility: hidden;
     }
+
     #top {
         position: absolute;
         top: 0;
@@ -207,11 +209,13 @@
         pointer-events: none;
 
     }
+
     .hero-section {
         width: 100%;
         height: 70rem;
         background-color: var(--bodyBack-one);
     }
+
     #workingarea {
         position: relative;
         top: 25rem;
@@ -220,7 +224,7 @@
         margin: 0 auto;
 
     }
-    
+
     #working-left {
         width: 100%;
         height: 60%;
@@ -583,7 +587,7 @@
         height: 2rem;
         overflow: hidden;
     }
- 
+
 }
 
 @media screen and (width < 755px) {
@@ -1037,6 +1041,7 @@
         display: flex;
         flex-direction: column;
     }
+
     .hero-section {
         width: 100%;
         height: 65rem;
@@ -1053,7 +1058,7 @@
 
     #elem-2 {
         width: 90vw;
-        height: 22rem;
+        height: 26rem;
         overflow: visible;
 
     }
@@ -1260,7 +1265,30 @@
         text-align: center;
         overflow: hidden;
     }
+
+    .footer-about-heading {
+        width: 8rem;
+        height: 3rem;
+    }
+
+    .footer-service-heading {
+        width: 10rem;
+        height: 3rem;
+
+    }
+
+    .footer-subs-heading {
+        width: 25rem;
+        height: 3rem;
+        overflow: hidden;
+    }
+
+    .footer-link-heading {
+        width: 8rem;
+        height: 3rem;
+    }
 }
+
 @media screen and (width < 350px) {
 
     #elem-2 {
@@ -1275,8 +1303,9 @@
         height: 12rem;
     }
 
-   
+
 }
+
 @media screen and (width < 300px) {
     #elem-2 {
         width: 90vw;
@@ -1289,6 +1318,7 @@
         width: 90vw;
         height: 12rem;
     }
+
     .hero-section {
         width: 100%;
         height: 80rem;
@@ -1542,9 +1572,24 @@
     #challange-videos-top h2 {
         font-size: 2rem;
     }
+
+    #footer-subs {
+        width: 25rem;
+        overflow: hidden;
+    }
+
+    .footer-subs-heading {
+        height: 2.4rem;
+    }
+
+    .footer-subs-heading h2 {
+        font-size: 1.7rem;
+    }
+
 }
+
 @media screen and (width < 250px) {
- 
+
     #elem-2 {
         width: 90vw;
         height: 40rem;
@@ -1561,8 +1606,9 @@
         width: 100%;
         height: 130vh;
         background-color: var(--bodyBack-one);
-    }   
+    }
 }
+
 @media screen and (width < 200px) {
     #workingarea-2 {
         margin-top: 3rem;
