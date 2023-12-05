@@ -1,20 +1,3 @@
-// gsap.registerPlugin(ScrollTrigger);
-// const locoScroll = new LocomotiveScroll({
-//   el: document.querySelector("#main"),
-//   smooth: true
-// });
-// locoScroll.on("scroll", ScrollTrigger.update);
-// ScrollTrigger.scrollerProxy("#main", {
-//   scrollTop(value) {
-//     return arguments.length ? locoScroll.scrollTo(value, 0, 0) : locoScroll.scroll.instance.scroll.y;
-//   }, 
-//   getBoundingClientRect() {
-//     return {top: 0, left: 0, width: window.innerWidth, height: window.innerHeight};
-//   },
-//   pinType: document.querySelector("#main").style.transform ? "transform" : "fixed"
-// });
-// ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
-// ScrollTrigger.refresh();
 
 // nav bar section start
 var mobile_btn = document.querySelector(".mobile-nav-btn")
@@ -42,7 +25,6 @@ const observer = new IntersectionObserver((entries) => {
     threshold: 0
 })
 observer.observe(hero_section)
-// const scrollThreshold = 2; // Adjust this threshold as needed
 // const activationScrollPosition = 10; // Adjust this position as needed
 // let isStickyActive = false;
 // window.addEventListener("wheel", (event) => {
@@ -116,13 +98,6 @@ const widthSize2 = window.matchMedia("(max-width:674px )")
 swiperfun2(widthSize2)
 widthSize2.addEventListener("change", swiperfun2)
 // <!-- <-------Clients Reviews Section end ------->
-
-// Animation section start
-// Shery.imageEffect(".back-img" , {
-//     style:6,
-//     debug:true,
-//     gooey:true
-// })
 
 var cursur = document.querySelector(".cursur")
 var main = document.querySelector("body")
