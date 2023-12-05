@@ -40,7 +40,7 @@
     }
 
     #right {
-        margin-left: 10rem;
+        margin-left: 5rem;
     }
 
     #left {
@@ -78,19 +78,22 @@
     }
 
     .about-left {
-        width: 100%;
+        width: 50%;
+        margin: 0 auto;
+
     }
 
     #about-img {
-        width: 90%;
+        width: 100%;
         height: 40rem;
-        margin: 2rem auto;
-    }
+        margin: 0 auto;
+        padding: 0 auto;
 
+    }
 
     #about-right {
         width: 100%;
-        height: 90%;
+        height: 95%;
         padding-top: 8rem;
         margin: 2rem 0;
     }
@@ -152,7 +155,7 @@
         justify-content: center;
         text-align: center;
         gap: 5rem;
-        margin-top: 10rem;
+       transform: translateY(100%);
     }
 
     #nav ul a {
@@ -164,7 +167,6 @@
         margin-top: 2rem;
         margin-right: 3rem;
         display: block;
-        /* z-index: 999; */
     }
 
     .hambar {
@@ -207,7 +209,6 @@
         height: 100%;
         margin: 0 auto;
         pointer-events: none;
-
     }
 
     .hero-section {
@@ -429,14 +430,14 @@
 
 
     .about-heading h4 {
-        padding-top: 0;
+        padding-top: 1px;
         font-size: 1.8rem;
         transition: all ease 0.3s;
     }
 
     .about-heading {
         width: 15rem;
-        height: 8rem;
+        height: 4rem;
         overflow: hidden;
     }
 
@@ -665,6 +666,20 @@
         width: 53rem;
     }
 
+    .about-left {
+        width: 60%;
+        margin: 0 auto;
+
+    }
+
+    #about-img {
+        width: 100%;
+        height: 40rem;
+        margin: 0 auto;
+        padding: 0 auto;
+
+    }
+
     .card {
         width: 50vw;
         height: 50vh;
@@ -807,13 +822,16 @@
     }
 
     .about-left {
-        width: 150%;
+        width: 70%;
+        margin: 0 auto;
     }
+
 
     #about-img {
         width: 100%;
-        height: 40rem;
-        margin: 2rem auto;
+        height: 35rem;
+        margin: 0 auto;
+        padding: 0 auto;
     }
 
     .about-heading h4 {
@@ -832,11 +850,7 @@
         height: 100%;
     }
 
-    #about-img {
-        width: 60%;
-        height: 25rem;
-        margin: 3rem auto;
-    }
+
 
     #portfolio-top h2 {
         padding-top: 3rem;
@@ -1028,13 +1042,6 @@
 
     }
 
-    /* #footer-service {
-        width: 10rem;
-        height: 100%;
-        margin-top: 2rem;
-
-    } */
-
     #workingarea-2-inner {
         width: 100%;
         height: 100vh;
@@ -1060,7 +1067,6 @@
         width: 90vw;
         height: 26rem;
         overflow: visible;
-
     }
 
     #elem-3 {
@@ -1079,6 +1085,18 @@
         font-size: 3.2rem;
     }
 
+    .about-left {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+
+    #about-img {
+        width: 100%;
+        height: 35rem;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
 
     #portfolio-top h2 {
         padding-top: 3rem;

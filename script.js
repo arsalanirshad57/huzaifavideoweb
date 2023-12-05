@@ -1,4 +1,3 @@
-
 // nav bar section start
 var mobile_btn = document.querySelector(".mobile-nav-btn")
 var header = document.querySelector(".header")
