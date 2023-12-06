@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Work+Sans&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -17,12 +18,13 @@
     --black: #00000000;
 }
 
-html,body {
+html,
+body {
     font-size: 10px;
     background-color: var(--bodyBack-one);
     overflow-x: hidden;
     scroll-behavior: smooth;
-  
+
 }
 
 h1 {
@@ -607,9 +609,11 @@ li a:hover {
     color: black;
     fill: black;
 }
-.price-div:hover p{
-font-weight: 900;
+
+.price-div:hover p {
+    font-weight: 900;
 }
+
 .price-inner-heading {
     width: 23rem;
     height: 4rem;
@@ -838,16 +842,14 @@ font-weight: 900;
 
 .contact-heading {
     width: 30rem;
-    height: 8rem;
-    margin: 0 auto;
+    height: 6rem;
+    margin: 2rem auto;
     text-align: center;
     overflow: hidden;
-
 }
 
-.contact-heading h2 {
+.contact-heading h2 {   
     font-size: 4rem;
-    padding-top: 1rem;
     overflow: hidden;
     transition: all linear 0.3s;
 }
@@ -860,7 +862,6 @@ font-weight: 900;
     width: 70%;
     height: 100%;
     margin: 0 auto;
-    margin-top: 3rem;
     margin-bottom: 8rem;
     padding-top: 2rem;
 
