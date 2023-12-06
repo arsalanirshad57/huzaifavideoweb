@@ -177,7 +177,7 @@ span {
     cursor: pointer;
 }
 
-#left {
+.left {
     margin-right: 15rem;
     margin-top: 3rem;
     margin-bottom: 2rem;
