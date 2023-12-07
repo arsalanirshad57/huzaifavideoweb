@@ -1,4 +1,15 @@
-@media screen and (width<1400px) {
+@media screen and (width<1430px) {
+    .hero-section {
+        width: 100%;
+        height: 100vh;
+        background-color: var(--bodyBack-one);
+    }
+
+    #working-left {
+        width: 60%;
+        height: 60%;
+    }
+
     #price-bottom {
         display: flex;
         justify-content: center;
@@ -25,18 +36,21 @@
         margin-top: 3rem;
         margin-bottom: 2rem;
     }
+    #working-right {
+        width: 45%;
+        height: 100%;
+        background-image: url(./hero-main.png), url(./Untitled_design__2_-removebg-preview.png);
+        background-size: 75rem;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
 }
 
 @media screen and (width < 1150px) {
     .hero-section {
         width: 100%;
-        height: 70rem;
-        background-color: var(--bodyBack-one);
-    }
-
-    #working-left {
-        width: 100%;
-        height: 60%;
+        height: 100%;
     }
 
     #right {
@@ -50,12 +64,29 @@
     }
 
     #workingarea {
-        position: relative;
-        top: 20rem;
-        width: 90%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 85%;
         height: 100%;
         margin: 0 auto;
+    }
 
+    #working-left {
+        width: 100%;
+        height: 60%;
+        margin-left: 0rem;
+        margin: 5rem auto;
+    }
+
+    #working-right {
+        width: 70%;
+        height: 50rem;
+        margin: 0 auto;
+        background-image: url(./hero-main.png), url(./Untitled_design__2_-removebg-preview.png);
+        background-size: 80rem;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
     #elem-1 {
@@ -63,11 +94,11 @@
     }
 
     #elem-2 {
-        width: 60rem;
+        width: 70rem;
     }
 
     #elem-3 {
-        width: 53rem;
+        width: 65rem;
     }
 
     #about-work {
@@ -109,22 +140,11 @@
 }
 
 @media screen and (width < 1000px) {
-    #back {
-        position: relative;
-        top: -10rem;
-        left: 0;
-        display: none;
-    }
-
-    .back-img {
-        width: 100%;
-        height: 120%;
-    }
-
     #nav {
-        position: relative;
         width: 100%;
         transform: translate(0%, 0%);
+        display: flex;
+        justify-content: space-between;
     }
 
     #right {
@@ -148,6 +168,7 @@
         scroll-behavior: smooth;
         overflow: hidden;
     }
+
     #nav ul {
         display: flex;
         flex-direction: column;
@@ -213,33 +234,30 @@
 
     .hero-section {
         width: 100%;
-        height: 70rem;
+        height: 100%;
         background-color: var(--bodyBack-one);
-    }
-
-    #workingarea {
-        position: relative;
-        top: 25rem;
-        width: 80%;
-        height: 63%;
-        margin: 0 auto;
-
     }
 
     #working-left {
         width: 100%;
         height: 60%;
+        margin: 3rem auto;
+    }
+
+    #working-right {
+        width: 70%;
+        height: 50rem;
+        margin: 0 auto;
+        background-image: url(./hero-main.png), url(./Untitled_design__2_-removebg-preview.png);
+        background-size: 80rem;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
     #elem-1 {
         width: 100vw;
         height: 2rem;
 
-    }
-
-    #workingarea {
-        width: 90%;
-        margin: 0 auto;
     }
 
     #elem-2 {
@@ -592,18 +610,6 @@
 }
 
 @media screen and (width < 755px) {
-
-    /* #back {
-        display: none;
-    }
-
-    #top {
-        display: none;
-    }
-
-    #workingarea-2 {
-        display: block;
-    } */
     .price-div {
         width: 60vw;
         height: 100%;
@@ -645,8 +651,25 @@
 
     .hero-section {
         width: 100%;
-        height: 100vh;
+        height: 100%;
         background-color: var(--bodyBack-one);
+    }
+
+    #working-left {
+        width: 100%;
+        height: 60%;
+        margin: 3rem auto;
+    }
+
+    #working-right {
+        width: 72%;
+        height: 40rem;
+        margin: 3rem auto;
+        background-image: url(./hero-main.png), url(./Untitled_design__2_-removebg-preview.png);
+        background-size: 70rem;
+        background-repeat: no-repeat;
+        background-position: center;
+
     }
 }
 
@@ -748,11 +771,27 @@
 
 @media screen and (width < 600px) {
     #workingarea {
-        position: relative;
         top: 18rem;
         width: 90%;
         height: 100%;
         margin: 0 auto;
+    }
+
+    #working-left {
+        width: 100%;
+        height: 60%;
+        margin: 3rem auto;
+    }
+
+    #working-right {
+        width: 100%;
+        height: 40rem;
+        margin: 0rem auto;
+        background-image: url(./hero-main.png), url(./Untitled_design__2_-removebg-preview.png);
+        background-size: 70rem;
+        background-repeat: no-repeat;
+        background-position: center;
+
     }
 
     #elem-1 {
@@ -791,7 +830,7 @@
 
     .hero-section {
         width: 100%;
-        height: 100vh;
+        height: 100%;
         background-color: var(--bodyBack-one);
     }
 }
@@ -1027,13 +1066,38 @@
 }
 
 @media screen and (width <=500px) {
+    #right {
+        margin-left: 2rem;
+    }
+    .hero-section {
+        width: 100%;
+        height: 100%;
+        background-color: var(--bodyBack-one);
+    }
+  
+    #working-left {
+        width: 100%;
+        height: 60%;
+        margin: 3rem auto;
+    }
+
+    #working-right {
+        width: 100%;
+        height: 40rem;
+        margin: 0rem auto;
+        background-image: url(./hero-main.png), url(./Untitled_design__2_-removebg-preview.png);
+        background-size: 60rem;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
     #elem-1 {
         width: 20rem;
         height: 1.8rem;
     }
 
     #elem-2 {
-        width: 38rem;
+        width: 40rem;
         height: 20rem;
     }
 
@@ -1041,20 +1105,6 @@
         width: 38rem;
 
     }
-
-    #workingarea-2-inner {
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .hero-section {
-        width: 100%;
-        height: 65rem;
-        background-color: var(--bodyBack-one);
-    }
-
 }
 
 @media screen and (width <=400px) {
@@ -1076,15 +1126,26 @@
 
     .hero-section {
         width: 100%;
-        height: 75rem;
+        height: 100%;
         background-color: var(--bodyBack-one);
     }
 
-    #workingarea-2-inner h1 {
-
-        font-size: 3.2rem;
+    #working-left {
+        width: 100%;
+        height: 60%;
+        margin: 3rem auto;
     }
 
+    #working-right {
+        width: 100%;
+        height: 40rem;
+        margin: 0rem auto;
+        background-image: url(./hero-main.png), url(./Untitled_design__2_-removebg-preview.png);
+        background-size: 50rem 40rem;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
     .about-left {
         width: 90%;
         margin: 0 auto;
@@ -1339,21 +1400,29 @@
 
     .hero-section {
         width: 100%;
-        height: 80rem;
+        height: 100%;
         background-color: var(--bodyBack-one);
     }
 
-    #workingarea-2-inner h1 {
-        font-size: 3rem;
+    #working-left {
+        width: 100%;
+        height: 60%;
+        margin: 3rem auto;
+    }
+
+    #working-right {
+        width: 100%;
+        height: 40rem;
+        margin: 0rem auto;
+        background-image: url(./hero-main.png), url(./Untitled_design__2_-removebg-preview.png);
+        background-size: 40rem 40rem;
+        background-repeat: no-repeat;
+        background-position: center;
 
     }
 
     #nav #right {
         margin-left: 1rem;
-    }
-
-    #workingarea-2-inner p {
-        font-size: 1.2rem;
     }
 
     #nav #right span {
@@ -1606,7 +1675,7 @@
 
 }
 
-@media screen and (width < 250px) {
+@media screen and (width < 270px) {
 
     #elem-2 {
         width: 90vw;
@@ -1622,8 +1691,25 @@
 
     .hero-section {
         width: 100%;
-        height: 130vh;
+        height: 100%;
         background-color: var(--bodyBack-one);
+    }
+    
+    #working-left {
+        width: 100%;
+        height: 60%;
+        margin: 3rem auto;
+    }
+
+    #working-right {
+        width: 100%;
+        height: 40rem;
+        margin: 0rem auto;
+        background-image: url(./hero-main.png), url(./Untitled_design__2_-removebg-preview.png);
+        background-size: 30rem 30rem;
+        background-repeat: no-repeat;
+        background-position: center;
+
     }
 }
 

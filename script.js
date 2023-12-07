@@ -9,21 +9,21 @@ const navlink = (id) => {
     header.classList.toggle("active")
     delay: "0.7"
 }
-const hero_section = document.querySelector(".hero-section")
-const observer = new IntersectionObserver((entries) => {
-    const ent = entries[0]
-    const isScrolling = window.scrollY > 0;
+// const hero_section = document.querySelector(".hero-section")
+// const observer = new IntersectionObserver((entries) => {
+//     const ent = entries[0]
+//     const isScrolling = window.scrollY > 0;
 
-    if (isScrolling) {
-        document.body.classList.add("sticky");
-    } else {
-        document.body.classList.remove("sticky");
-    }
-}, {
-    root: null,
-    threshold: 0
-})
-observer.observe(hero_section)
+//     if (isScrolling) {
+//         document.body.classList.add("sticky");
+//     } else {
+//         document.body.classList.remove("sticky");
+//     }
+// }, {
+//     root: null,
+//     threshold: 0
+// })
+// observer.observe(hero_section)
 // const activationScrollPosition = 10; // Adjust this position as needed
 // let isStickyActive = false;
 // window.addEventListener("wheel", (event) => {
@@ -288,17 +288,21 @@ function nav_animation() {
         duration: 0.5,
         delay: 0.3,
     }, "nav")
-    nav_tl.from("#left ul li ", {
+    nav_tl.from(".left ul li ", {
         y: -200,
         duration: 1,
-        // delay: 0.1,
         stagger: 0.2,
     })
     nav_tl.from("#working-left", {
-        y: 200,
+        x: -200,
         //    delay: -1,
         opacity: 0
-    })
+    },'work')
+    nav_tl.from("#working-right", {
+        x: 200,
+        //    delay: -1,
+        opacity: 0
+    },'work')
 }
 nav_animation()
 var footer_inner = document.querySelector("#footer-subs-inner-1")

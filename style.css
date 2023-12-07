@@ -155,11 +155,9 @@ span {
 /* <!-- <------- NavBar Section Start -------> */
 
 #nav {
+    position: relative;
     width: 100%;
-    position: absolute;
-    top: 0;
     transform: translate(0%, 0%);
-    z-index: 99;
     display: flex;
     justify-content: space-between;
 }
@@ -223,65 +221,49 @@ li a:hover {
 /* <!-- <------- Hero Section Start -------> */
 .hero-section {
     width: 100%;
-    height: 100vh;
+    height: 86vh;
     background-color: var(--bodyBack-one);
 }
 
-#back {
-    width: 100%;
-    height: 100%;
-}
-
-.back-img {
-    width: 100%;
-    height: 100%;
-}
-
-#top {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    margin: 0 auto;
-    pointer-events: none;
-}
-
 #workingarea {
-    position: relative;
-    top: 25rem;
-    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
     height: 100%;
     margin: 0 auto;
+    /* border: 2px solid red; */
 }
 
 #working-left {
-    width: 60%;
-    height: 50%;
+    width: 50%;
+    margin-top: 10rem;
+    margin-left: 3.3rem;
+}
+
+#working-right {
+    width: 45%;
+    height: 100%;
+    background-image: url(./hero-main.png), url(./Untitled_design__2_-removebg-preview.png);
+    background-size: 80rem;
+    margin-top: -3rem;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #elem-1 {
-    width: 25rem;
     display: flex;
     flex-direction: column;
-    height: 2.2rem;
-    overflow: hidden;
     margin-bottom: 1rem;
-
 }
 
 #elem-2 {
-    width: 60rem;
     display: flex;
     flex-direction: column;
-    height: 18rem;
-    overflow: hidden;
     margin-bottom: 2rem;
 
 }
 
 #elem-3 {
-    width: 57rem;
-    height: 9rem;
-    overflow: hidden;
     margin-bottom: 3rem;
 }
 
@@ -291,56 +273,6 @@ li a:hover {
 }
 
 /* <!-- <------- Hero Section End -------> */
-/* <!-- <------- Hero Section 2 Start -------> */
-#workingarea-2 {
-    position: absolute;
-    top: 30%;
-    left: 5%;
-    width: 90%;
-    height: 50%;
-    display: none;
-}
-
-#workingarea-2-inner {
-    width: 100%;
-    height: 60vh;
-    display: flex;
-    flex-direction: column;
-}
-
-#workingarea-2-inner h1 {
-    font-size: 3.5rem;
-}
-
-#workingarea-2-inner p {
-    font-size: 1.5rem;
-}
-
-
-#hero-img {
-    width: 60%;
-    height: 25rem;
-    margin: 3rem auto;
-}
-
-#head-1 {
-    margin-bottom: 1rem;
-}
-
-#head-2 {
-    margin-bottom: 3rem;
-}
-
-#head-3 {
-    margin-bottom: 6rem;
-}
-
-#hero-btn-2 {
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-}
-
-/* <!-- <------- Hero Section 2 End -------> */
 
 /* <!-- <------- About Section start ------->*/
 #about {
@@ -848,7 +780,7 @@ li a:hover {
     overflow: hidden;
 }
 
-.contact-heading h2 {   
+.contact-heading h2 {
     font-size: 4rem;
     overflow: hidden;
     transition: all linear 0.3s;
