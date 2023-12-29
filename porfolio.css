@@ -2,7 +2,6 @@
 #Long-videos {
     width: 100%;
     height: 100%;
-    margin-top: 15rem;
 }
 
 #Long-videos-inner {
@@ -18,6 +17,7 @@
     text-align: center;
     overflow: hidden;
 }
+
 #Long-videos-top:hover h2 {
     transform: translateY(-100%);
 }
@@ -50,8 +50,9 @@
     border-radius: 1.5rem;
     pointer-events: none;
 }
+
 .Long-videos-card h3 {
-   font-size: 3.5rem;
+    font-size: 3.5rem;
 }
 
 #Long-videos-card-1 {
@@ -94,20 +95,20 @@
     background-image: url(./challenge.webp);
     background-position: center;
     background-size: cover;
-    
+
 }
 
 
 
 /* <!-- <-------Long  videos  Section end -------> */
 /* <!-- <-------vlogs  videos  Section start -------> */
-#vlog-videos{
+#vlog-videos {
     width: 100%;
     height: 100%;
-    margin-top: 15rem;
+
 }
 
-#vlog-videos-inner{
+#vlog-videos-inner {
     width: 80%;
     min-height: 100%;
     margin: 0 auto;
@@ -120,6 +121,7 @@
     text-align: center;
     overflow: hidden;
 }
+
 #vlog-videos-top:hover h2 {
     transform: translateY(-100%);
 }
@@ -129,7 +131,8 @@
     padding-top: 2rem;
     font-size: 4rem;
 }
-#vlog-videos-bottom{
+
+#vlog-videos-bottom {
     width: 100%;
     height: 100%;
 }
@@ -139,7 +142,8 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.video{
+
+.video {
     width: 35.5vw;
     height: 100%;
     margin-bottom: 8rem;
@@ -147,20 +151,21 @@
     background: none;
     /* border: 4px solid var(--helper); */
 }
-.video-js{
-    width:36vw;
+
+.video-js {
+    width: 36vw;
     height: 33rem;
 }
+
 /* <!-- <-------vlogs  videos  Section end -------> */
 /* <!-- <-------gaming  videos  Section start -------> */
-#game-videos{
+#game-videos {
     width: 100%;
     height: 100%;
-    margin-top: 15rem;
-    /* border: 2px solid red; */
+
 }
 
-#game-videos-inner{
+#game-videos-inner {
     width: 80%;
     min-height: 100%;
     margin: 0 auto;
@@ -173,6 +178,7 @@
     text-align: center;
     overflow: hidden;
 }
+
 #game-videos-top:hover h2 {
     transform: translateY(-100%);
 }
@@ -182,21 +188,20 @@
     padding-top: 2rem;
     font-size: 4rem;
 }
-#game-videos-bottom{
+
+#game-videos-bottom {
     width: 100%;
     height: 100%;
 }
 
 /* <!-- <-------gaming  videos  Section end -------> */
 /* <!-- <-------food  videos  Section start -------> */
-#food-videos{
+#food-videos {
     width: 100%;
     height: 100%;
-    margin-top: 15rem;
-    /* border: 2px solid red; */
 }
 
-#food-videos-inner{
+#food-videos-inner {
     width: 80%;
     min-height: 100%;
     margin: 0 auto;
@@ -209,6 +214,7 @@
     text-align: center;
     overflow: hidden;
 }
+
 #food-videos-top:hover h2 {
     transform: translateY(-100%);
 }
@@ -219,21 +225,19 @@
     font-size: 4rem;
 }
 
-#food-videos-bottom{
+#food-videos-bottom {
     width: 100%;
     height: 100%;
 }
 
 /* <!-- <-------food  videos  Section end -------> */
 /* <!-- <-------tech  videos  Section start -------> */
-#tech-videos{
+#tech-videos {
     width: 100%;
     height: 100%;
-    margin-top: 15rem;
-    /* border: 2px solid red; */
 }
 
-#tech-videos-inner{
+#tech-videos-inner {
     width: 80%;
     min-height: 100%;
     margin: 0 auto;
@@ -247,6 +251,7 @@
     overflow: hidden;
 
 }
+
 #tech-videos-top:hover h2 {
     transform: translateY(-100%);
 }
@@ -257,21 +262,21 @@
     font-size: 4rem;
 }
 
-#tech-videos-bottom{
+#tech-videos-bottom {
     width: 100%;
     height: 100%;
+ 
 }
 
 /* <!-- <-------tech  videos  Section end -------> */
 /* <!-- <-------educaton  videos  Section start -------> */
-#educaton-videos{
+#educaton-videos {
     width: 100%;
     height: 100%;
-    margin-top: 15rem;
-    /* border: 2px solid red; */
+    margin-top: 2rem;
 }
 
-#educaton-videos-inner{
+#educaton-videos-inner {
     width: 80%;
     min-height: 100%;
     margin: 2rem auto;
@@ -284,6 +289,7 @@
     text-align: center;
     overflow: hidden;
 }
+
 #educaton-videos-top:hover h2 {
     transform: translateY(-100%);
 }
@@ -294,21 +300,20 @@
     font-size: 4rem;
 
 }
-#educaton-videos-bottom{
+
+#educaton-videos-bottom {
     width: 100%;
     height: 100%;
 }
 
 /* <!-- <-------education  videos  Section end -------> */
 /* <!-- <-------food  videos  Section start -------> */
-#travel-videos{
+#travel-videos {
     width: 100%;
     height: 100%;
-    margin-top: 15rem;
-    /* border: 2px solid red; */
 }
 
-#travel-videos-inner{
+#travel-videos-inner {
     width: 80%;
     min-height: 100%;
     margin: 0 auto;
@@ -321,6 +326,7 @@
     text-align: center;
     overflow: hidden;
 }
+
 #travel-videos-top:hover h2 {
     transform: translateY(-100%);
 }
@@ -330,24 +336,24 @@
     padding-top: 2rem;
     font-size: 4rem;
 }
-#travel-videos-bottom{
+
+#travel-videos-bottom {
     width: 100%;
     height: 100%;
 }
 
 /* <!-- <-------challange  videos  Section start -------> */
-#challange-videos{
+#challange-videos {
     width: 100%;
     height: 100%;
-    margin-top: 15rem;
-    /* border: 2px solid red; */
 }
 
-#challange-videos-inner{
+#challange-videos-inner {
     width: 80%;
     min-height: 100%;
     margin: 0 auto;
 }
+
 #challange-videos-top {
     width: 55rem;
     height: 9rem;
@@ -355,6 +361,7 @@
     text-align: center;
     overflow: hidden;
 }
+
 #challange-videos-top:hover h2 {
     transform: translateY(-100%);
 }
@@ -364,21 +371,20 @@
     padding-top: 2rem;
     font-size: 4rem;
 }
-#challange-videos-bottom{
+
+#challange-videos-bottom {
     width: 100%;
     height: 100%;
 }
 
 /* <!-- <-------challange  videos  Section end -------> */
 /* <!-- <-------fitness  videos  Section start -------> */
-#fitness-videos{
+#fitness-videos {
     width: 100%;
     height: 100%;
-    margin-top: 15rem;
-    /* border: 2px solid red; */
 }
 
-#fitness-videos-inner{
+#fitness-videos-inner {
     width: 80%;
     min-height: 100%;
     margin: 0 auto;
@@ -391,6 +397,7 @@
     text-align: center;
     overflow: hidden;
 }
+
 #fitness-videos-top:hover h2 {
     transform: translateY(-130%);
 }
@@ -401,21 +408,18 @@
     font-size: 4rem;
 }
 
-#fitness-videos-bottom{
+#fitness-videos-bottom {
     width: 100%;
     height: 100%;
 }
 
 /* <!-- <-------fitness  videos  Section end -------> */
 /* <!-- <-------podcast  videos  Section start -------> */
-#podcast-videos{
+#podcast-videos {
     width: 100%;
-    height: 100%;
-    margin-top: 15rem;
-    /* border: 2px solid red; */
 }
 
-#podcast-videos-inner{
+#podcast-videos-inner {
     width: 80%;
     min-height: 100%;
     margin: 0 auto;
@@ -428,6 +432,7 @@
     text-align: center;
     overflow: hidden;
 }
+
 #podcast-videos-top:hover h2 {
     transform: translateY(-130%);
 }
@@ -438,21 +443,19 @@
     font-size: 4rem;
 }
 
-#podcast-videos-bottom{
+#podcast-videos-bottom {
     width: 100%;
     height: 100%;
 }
 
 /* <!-- <-------fitness  videos  Section end -------> */
 /* <!-- <-------short  videos  Section start -------> */
-#short-videos{
+#short-videos {
     width: 100%;
     height: 100%;
-    margin-top: 15rem;
-    /* border: 2px solid red; */
 }
 
-#short-videos-inner{
+#short-videos-inner {
     width: 80%;
     min-height: 100%;
     margin: 0 auto;
@@ -465,6 +468,7 @@
     text-align: center;
     overflow: hidden;
 }
+
 #short-videos-top:hover h2 {
     transform: translateY(-130%);
 }
@@ -475,21 +479,19 @@
     font-size: 4rem;
 }
 
-#short-videos-bottom{
+#short-videos-bottom {
     width: 100%;
     height: 100%;
 }
 
 /* <!-- <-------challange  videos  Section end -------> */
 /* <!-- <-------fitness  videos  Section start -------> */
-#short-videos{
+#short-videos {
     width: 100%;
     height: 100%;
-    margin-top: 15rem;
-    /* border: 2px solid red; */
 }
 
-#short-videos-inner{
+#short-videos-inner {
     width: 80%;
     min-height: 100%;
     margin: 0 auto;
@@ -506,21 +508,19 @@
     font-size: 4rem;
 }
 
-#fitness-videos-bottom{
+#fitness-videos-bottom {
     width: 100%;
     height: 100%;
 }
 
 /* <!-- <-------fitness  videos  Section end -------> */
 /* <!-- <-------podcast  videos  Section start -------> */
-#podcast-videos{
+#podcast-videos {
     width: 100%;
     height: 100%;
-    margin-top: 15rem;
-    /* border: 2px solid red; */
 }
 
-#podcast-videos-inner{
+#podcast-videos-inner {
     width: 80%;
     min-height: 100%;
     margin: 0 auto;
@@ -537,21 +537,20 @@
     font-size: 4rem;
 }
 
-#podcast-videos-bottom{
+#podcast-videos-bottom {
     width: 100%;
     height: 100%;
 }
 
 /* <!-- <-------podcast  videos  Section end -------> */
 /* <!-- <-------shorts  videos  Section start -------> */
-#short-videos{
+#short-videos {
     width: 100%;
     height: 100%;
-    margin-top: 15rem;
-    /* border: 2px solid red; */
+    margin-top: -7rem;
 }
 
-#short-videos-inner{
+#short-videos-inner {
     width: 80%;
     min-height: 100%;
     margin: 0 auto;
@@ -568,27 +567,30 @@
     font-size: 4rem;
 }
 
-#short-videos-bottom{
+#short-videos-bottom {
     width: 100%;
     height: 100%;
 }
-#short-videos-div{
+
+#short-videos-div {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.short-video{
+
+.short-video {
     width: 25.5vw;
     height: 100%;
     margin-bottom: 8rem;
     object-fit: contain;
     background: none;
-    /* border: 4px solid var(--helper); */
 }
-.short-video-js{
-    width:25vw;
+
+.short-video-js {
+    width: 25vw;
     height: 50rem;
 }
+
 /* <!-- <-------shorts  videos  Section end -------> */
 /* <!-- <-------Heading  animation start -------> */
 
